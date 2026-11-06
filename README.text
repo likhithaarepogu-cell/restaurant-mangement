@@ -1,0 +1,105 @@
+
+RESTAURANT RESERVATION MANAGEMENT SYSTEM
+
+1. PROJECT DESCRIPTION
+
+The Restaurant Reservation Management System is a web-based
+application developed using HTML, CSS, JavaScript, Express.js
+and MySQL.
+
+This system allows customers to reserve restaurant tables
+online by entering their personal details, reservation date,
+time and number of guests.
+
+The administrator can view, update and delete reservations.
+
+2. TECHNOLOGIES USED
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MySQL
+
+Development Tool:
+- Visual Studio Code
+
+3. PROJECT FEATURES
+
+- Online table reservation
+- Customer details collection
+- Reservation date and time selection
+- Number of guests selection
+- Special requests
+- View all reservations
+- Update reservation status
+- Delete reservations
+- MySQL database connectivity
+
+4. DATABASE DETAILS
+
+Database Name:
+restaurant_db
+
+Table Name:
+reservations
+
+Fields:
+- reservation_id
+- customer_name
+- email
+- phone
+- reservation_date
+- reservation_time
+- guests
+- special_request
+- status
+- created_at
+
+5. PROJECT EXECUTION STEPS
+
+Step 1:
+Install Node.js and MySQL.
+
+Step 2:
+Open the project folder in Visual Studio Code.
+
+Step 3:
+Open the terminal and execute:
+
+npm install
+
+Step 4:
+Open MySQL Workbench.
+
+Step 5:
+Execute the SQL commands from:
+database/restaurant.sql
+
+Step 6:
+Create a .env file using .env.example
+and enter your MySQL password.
+
+Step 7:
+Start the application:
+
+npm start
+
+Step 8:
+Open the browser and enter:
+
+http://localhost:3000
+
+6. PROJECT PURPOSE
+
+The main purpose of this project is to simplify
+restaurant table reservations and help restaurant
+administrators manage customer bookings efficiently.
+
+END OF PROJECT
